@@ -4,7 +4,7 @@
 
 #nmap to sniff the ports 
 
-nmap -sV -sC -oN outputFile_Name  <ip> 
+sudo nmap -sV -sC -oN outputFile_Name  <ip> 
 
 	-sV :	Attempts to determine the version of the services running
 	-sC : 	Scan with the default nmap scripts
